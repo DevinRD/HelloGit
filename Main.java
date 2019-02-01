@@ -10,6 +10,7 @@ public class Main {
         System.out.print("Enter something: ");
         userInput = scanner.nextLine();
         System.out.println("You entered: " + userInput);
+        System.out.println();
 
         if (userInput.contains("dog")) {
             System.out.println("I like dogs too.");
